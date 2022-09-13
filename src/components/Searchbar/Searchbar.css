@@ -9,9 +9,9 @@
   max-width: 400px;
   border: none;
   padding: 0 16px;
-  border-radius: 10px 0 0 10px;
+  border-radius: 14px 0 0 14px;
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   cursor: pointer;
 }
@@ -25,10 +25,11 @@
   border: none;
   height: 100%;
   width: 50px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 14px 14px 0;
   cursor: pointer;
+  transform: translateY(1px);
 }
 
 .searchbar-btn img {
-  transform: translateY(15%);
+  transform: translateY(10%);
 }
