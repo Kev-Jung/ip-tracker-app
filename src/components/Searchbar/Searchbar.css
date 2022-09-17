@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.searchbar input:focus {
+.searchbar input:focus, .searchbar-btn:focus {
   outline: none;
 }
 

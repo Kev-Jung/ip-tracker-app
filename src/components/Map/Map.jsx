@@ -7,22 +7,19 @@ const Map = ({ lat, lng }) => {
     width: "100%",
   };
 
+  // centerpoint for map location and marker icon
   const center = {
     lat,
     lng,
-  };
-
-  const options = {
-    disableDefaultUI: true,
   };
 
   return (
     <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
       <GoogleMap
         mapContainerStyle={mapStyles}
-        zoom={14}
+        zoom={15}
         center={center}
-        options={options}
+        options={{ disableDefaultUI: true }}
       >
         <MarkerF position={center} />
       </GoogleMap>
