@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ip-tracker-app/static/css/main.94bf76c8.css",
+    "main.js": "/ip-tracker-app/static/js/main.987e7d58.js",
+    "static/media/pattern-bg.png": "/ip-tracker-app/static/media/pattern-bg.a60a3c85aa8b88aac4b7.png",
+    "index.html": "/ip-tracker-app/index.html",
+    "static/media/icon-arrow.svg": "/ip-tracker-app/static/media/icon-arrow.2eaaa5ee3602d5aa14a2dba69e9fb7a0.svg",
+    "main.94bf76c8.css.map": "/ip-tracker-app/static/css/main.94bf76c8.css.map",
+    "main.987e7d58.js.map": "/ip-tracker-app/static/js/main.987e7d58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94bf76c8.css",
+    "static/js/main.987e7d58.js"
+  ]
+}
