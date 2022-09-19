@@ -27,7 +27,7 @@ const Searchbar = ({ fetchApi }) => {
         className="searchbar-btn"
         onClick={() => validateIPaddress(searchField)}
       >
-        <img src={arrowImg} />
+        <img src={arrowImg} alt="submit button" />
       </button>
     </div>
   );
