@@ -3,24 +3,40 @@ import "./ResultField.css";
 
 const ResultField = ({ data }) => {
   const { ip, location, timezone, isp } = data;
+
+  const fieldData = [
+    {
+      id: 1,
+      title: "ip address",
+      data: ip,
+    },
+    {
+      id: 2,
+      title: "location",
+      data: location,
+    },
+    {
+      id: 3,
+      title: "timezone",
+      data: `UTC ${timezone}`,
+    },
+    {
+      id: 4,
+      title: "isp",
+      data: isp,
+    },
+  ];
+
   return (
     <div className="results-container">
-      <div className="field">
-        <h3>ip address</h3>
-        <p>{ip}</p>
-      </div>
-      <div className="field">
-        <h3>location</h3>
-        <p>{location}</p>
-      </div>
-      <div className="field">
-        <h3>timezone</h3>
-        <p>{`UTC ${timezone}`}</p>
-      </div>
-      <div className="field">
-        <h3>isp</h3>
-        <p>{isp}</p>
-      </div>
+      {fieldData.map(({ title, data }) => {
+        return (
+          <div className="field">
+            <h3>{title}</h3>
+            <p>{data}</p>
+          </div>
+        );
+      })}
     </div>
   );
 };
